@@ -20,3 +20,4 @@ spring:
             - Path=/api/registration/**
           filters:
             - AuthenticationFilter
+            - ResponseFilter
